@@ -21,7 +21,7 @@ const getResponseFromFillOut = async (formId, query) => {
 
     return response.data;
   } catch (err) {
-    throw new Error(err);
+    throw new Error(err?.response?.data?.message || err);
   }
 };
 

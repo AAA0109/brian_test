@@ -5,8 +5,6 @@
   "scripts": {
     "start": "node ./src/bin/www",
     "dev": "nodemon ./src/bin/www",
-    "test": "jest",
-    "test:watch": "jest --watchAll",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
@@ -24,9 +22,7 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^3.4.0",
-    "jest": "^24.9.0",
-    "nodemon": "^2.0.12",
-    "supertest": "^3.4.2"
+    "nodemon": "^2.0.12"
   },
   "jest": {
     "testEnvironment": "node"
